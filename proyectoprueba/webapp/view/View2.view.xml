@@ -1,0 +1,40 @@
+<mvc:View controllerName="proyectoprueba.controller.View2"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m" xmlns:l="sap.ui.layout"
+	xmlns:f="sap.ui.layout.form"
+	xmlns:core="sap.ui.core">
+    <Page id="page2" title="{i18n>title_view2}" >
+        <content>
+        <f:SimpleForm id="SimpleFormChange354"
+            editable="true"
+            layout="ResponsiveGridLayout"
+            title="Productos"
+            labelSpanXL="3"
+            labelSpanL="3"
+            labelSpanM="3"
+            labelSpanS="12"
+            adjustLabelSpan="false"
+            emptySpanXL="4"
+            emptySpanL="4"
+            emptySpanM="4"
+            emptySpanS="0"
+            columnsXL="1"
+            columnsL="1"
+            columnsM="1"
+            singleContainerFullSize="false" >
+            <f:content>
+                <Label text="Nombre" />
+                <Text text="{Productos>Nombre}"  />
+                <Label text="Procedencia" />
+                <Text text="{Productos>Procedencia}"  />
+                <Label text="Precio" />
+                <Text text="{Productos>Precio}"  />
+                <Label text="Moneda" />
+                <Text text="{Productos>Moneda}"  />
+                <Label text="Distribuidor" />
+                <Text text="{Productos>Distribuidor}"  />
+            </f:content>
+            </f:SimpleForm>
+        </content>
+    </Page>
+</mvc:View>
