@@ -1,0 +1,35 @@
+{
+    "ListaProductos":[
+        {
+            "Nombre": "Lechuga",
+            "Procedencia":"Soria",
+            "Precio":2,
+            "Moneda": "EUR",
+            "Distribuidor": "Lechugas Alfonso"
+        },
+
+        {
+            "Nombre": "Cerveza",
+            "Procedencia":"Galicia",  
+            "Precio":89,
+            "Moneda": "EUR",
+            "Distribuidor": "Distruido Galicia"
+        },
+
+        {
+            "Nombre": "Pienso Perro",
+            "Procedencia":"Barcelona",  
+            "Precio":4,
+            "Moneda": "EUR",
+            "Distribuidor": "De los Gatitos"        
+        },
+
+        {
+            "Nombre": "Atun",
+            "Procedencia":"Andalucia",  
+            "Precio":3,
+            "Moneda": "EUR",
+            "Distribuidor": "Atuncitos"
+        }
+    ]
+}
